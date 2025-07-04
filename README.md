@@ -15,7 +15,7 @@ A stylish and interactive counter web app built using **HTML, CSS, and JavaScrip
 
 ## 📸 Preview
 
-![Wow Counter App Demo](https://drive.google.com/file/d/1t7HdJ4SGds58UnPZEtR6ug6hHQXJAbz6/view?usp=sharing)
+![Wow Counter App Demo](https://drive.google.com/uc?export=view&id=1t7HdJ4SGds58UnPZEtR6ug6hHQXJAbz6)
 
 ## 🔧 Tech Stack
 
