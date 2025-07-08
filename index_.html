@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countastic</title>
+  <link rel="stylesheet" href="styles_.css" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="counter-container">
+    <div class="title"><h2>Countastic🔢</h2></div>
+    <div class="count" id="count">0</div>
+    <div class="buttons">
+      <button onclick="decrement()">-</button>
+      <button onclick="increment()">+</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+    <div style="margin-top: 1.5rem;">
+      <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+      <button class="mute-toggle" onclick="toggleMute()" id="muteBtn">🔊 Mute</button>
+    </div>
+    <div class="footer">Made with Innovation❤️</div>
+  </div>
+
+  <audio id="sound-plus" src="https://www.soundjay.com/buttons/sounds/button-10.mp3"></audio>
+  <audio id="sound-minus" src="https://www.soundjay.com/buttons/sounds/button-3.mp3"></audio>
+  <audio id="sound-reset" src="https://www.soundjay.com/buttons/sounds/button-20.mp3"></audio>
+  <audio id="sound-theme" src="https://www.soundjay.com/buttons/sounds/button-15.mp3"></audio>
+
+  <script src="script_.js"></script>
+</body>
+</html>
